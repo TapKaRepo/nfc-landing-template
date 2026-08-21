@@ -1,0 +1,22 @@
+{
+  "slug": "onlysamirhere",
+  "brandName": "onlysamirhere",
+  "tagline": "influencer",
+  "statement": "This is me",
+  "logo": "assets/logo.webp",
+  "themeColor": "#C9A227",
+  "contact": {
+    "email": "Samirlkhzazo@gmail.com",
+    "phone": "+212669737024",
+    "website": "www.instagram.com/onlysamirhere",
+    "location": "here"
+  },
+  "social": [
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/onlysamirhere/"
+    }
+  ],
+  "createdAt": "2026-08-21T00:58:20.363Z",
+  "updatedAt": "2026-08-21T00:59:12.081Z"
+}
