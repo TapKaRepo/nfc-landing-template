@@ -265,6 +265,9 @@ body {
 }
 
 .social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   padding: 10px 16px;
   border: 1px solid var(--border);
   border-radius: 999px;
@@ -275,6 +278,23 @@ body {
   background: var(--surface-elevated);
   transition: border-color 150ms ease, color 150ms ease;
   cursor: pointer;
+}
+
+.social-link-icon {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  color: var(--theme);
+}
+
+.social-link-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.social-link-label {
+  line-height: 1;
 }
 
 .social-link:hover {
