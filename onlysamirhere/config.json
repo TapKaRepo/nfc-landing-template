@@ -1,0 +1,26 @@
+{
+  "slug": "onlysamirhere",
+  "brandName": "onlysamirhere",
+  "tagline": "content creator",
+  "statement": "welcome to my profile",
+  "logo": "assets/logo.webp",
+  "themeColor": "#C9A227",
+  "contact": {
+    "email": "Samirlkhzazo@gmail.com",
+    "phone": "+2126666666",
+    "website": "www.instagram.com/onlysamirhere",
+    "location": "TapKa"
+  },
+  "social": [
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/onlysamirhere/"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=61559968004822&mibextid=wwXIfr&mibextid=wwXIfr"
+    }
+  ],
+  "createdAt": "2026-08-21T00:58:20.363Z",
+  "updatedAt": "2026-08-21T14:36:06.351Z"
+}
