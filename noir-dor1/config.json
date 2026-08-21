@@ -1,0 +1,26 @@
+{
+  "slug": "noir-dor1",
+  "brandName": "noir_dor1",
+  "tagline": "luxe et qualité, sans compromis sur le prix",
+  "statement": "Les Extrait De Parfum",
+  "themeColor": "#C9A227",
+  "contact": {
+    "email": "",
+    "phone": "0612141701",
+    "website": "",
+    "location": ""
+  },
+  "social": [
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/noir_dor1/"
+    },
+    {
+      "platform": "whatsapp",
+      "url": "https://wa.me/612141701"
+    }
+  ],
+  "logo": "assets/logo.webp",
+  "createdAt": "2026-08-21T15:42:41.345Z",
+  "updatedAt": "2026-08-21T17:48:31.817Z"
+}
