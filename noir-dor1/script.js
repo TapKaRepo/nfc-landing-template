@@ -53,7 +53,30 @@ function websiteHref(domain) {
 
 function mapsHref(location) {
   if (!location) return '';
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(location.trim())}`;
+  const trimmed = location.trim();
+  if (!trimmed) return '';
+
+  if (/^https?:\/\//i.test(trimmed)) {
+    return trimmed;
+  }
+
+  if (/^(maps\.app\.goo\.gl|goo\.gl\/maps|maps\.google\.|www\.google\.|google\.)/i.test(trimmed)) {
+    return `https://${trimmed.replace(/^\/+/, '')}`;
+  }
+
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(trimmed)}`;
+}
+
+function formatLocationDisplay(location) {
+  if (!location) return '';
+  const trimmed = location.trim();
+  if (/^https?:\/\//i.test(trimmed) && /maps|goo\.gl|google\.(?:com|[a-z]{2,3})\/maps/i.test(trimmed)) {
+    return 'Open in Maps';
+  }
+  if (/^(maps\.app\.goo\.gl|goo\.gl\/maps|maps\.google\.|www\.google\.|google\.)/i.test(trimmed)) {
+    return 'Open in Maps';
+  }
+  return location;
 }
 
 function formatPhoneDisplay(phone) {
@@ -219,7 +242,7 @@ function render(config, logoUrl) {
   }
   if (contact.location) {
     contactList.appendChild(
-      contactBlock('Location', contact.location, 'location', mapsHref(contact.location), true),
+      contactBlock('Location', formatLocationDisplay(contact.location), 'location', mapsHref(contact.location), true),
     );
   }
 
