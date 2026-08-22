@@ -51,6 +51,11 @@ function websiteHref(domain) {
   return bare ? `https://${bare}` : '';
 }
 
+function mapsHref(location) {
+  if (!location) return '';
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(location.trim())}`;
+}
+
 function formatPhoneDisplay(phone) {
   if (!phone) return '';
   const n = phone.replace(/[\s\-().]/g, '');
@@ -214,7 +219,7 @@ function render(config, logoUrl) {
   }
   if (contact.location) {
     contactList.appendChild(
-      contactBlock('Location', contact.location, 'location'),
+      contactBlock('Location', contact.location, 'location', mapsHref(contact.location), true),
     );
   }
 
