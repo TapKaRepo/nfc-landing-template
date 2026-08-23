@@ -1,0 +1,30 @@
+{
+  "slug": "tapka",
+  "brandName": "Tapka",
+  "tagline": "NFC carte",
+  "statement": "La carte de visite intelligente qui ouvre votre profil digital",
+  "themeColor": "#C9A227",
+  "contact": {
+    "email": "Pro_TapKa@hotmail.com",
+    "phone": "+212604626144",
+    "website": "tapka.ma",
+    "location": ""
+  },
+  "social": [
+    {
+      "platform": "whatsapp",
+      "url": "https://wa.me/604626144"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/tapka.ma/"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/share/1Bn5TfmsGB/?mibextid=wwXIfr"
+    }
+  ],
+  "logo": "assets/logo.webp",
+  "createdAt": "2026-08-23T17:53:12.151Z",
+  "updatedAt": "2026-08-23T17:53:12.151Z"
+}
