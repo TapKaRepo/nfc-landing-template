@@ -1,0 +1,27 @@
+{
+  "slug": "moda-arpol",
+  "brandName": "MODA ARPOL",
+  "tagline": "بائع",
+  "statement": "MODA ARPOL مرحبًا بكم في",
+  "logoStyle": "flat",
+  "themeColor": "#C9A227",
+  "contact": {
+    "email": "",
+    "phone": "0616743402",
+    "website": "",
+    "location": ""
+  },
+  "social": [
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/mod_aarpol?igsi=MWgxOXlybmV1a25idw=="
+    },
+    {
+      "platform": "whatsapp",
+      "url": "https://wa.me/616743402"
+    }
+  ],
+  "logo": "assets/logo.webp",
+  "createdAt": "2026-08-29T00:24:14.160Z",
+  "updatedAt": "2026-08-29T00:24:14.160Z"
+}
