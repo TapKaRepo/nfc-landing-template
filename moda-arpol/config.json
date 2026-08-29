@@ -6,10 +6,10 @@
   "logoStyle": "flat",
   "themeColor": "#C9A227",
   "contact": {
-    "email": "aimranejoukar@gmail.com",
+    "email": "Imadharraf@gmail.com",
     "phone": "0616743402",
     "website": "",
-    "location": ""
+    "location": "https://maps.app.goo.gl/Y6c9wm7PgHrYkNZT6"
   },
   "social": [
     {
@@ -23,5 +23,5 @@
   ],
   "logo": "assets/logo.webp",
   "createdAt": "2026-08-29T00:24:14.160Z",
-  "updatedAt": "2026-08-29T00:29:45.973Z"
+  "updatedAt": "2026-08-29T14:32:40.289Z"
 }
