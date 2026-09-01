@@ -1,0 +1,24 @@
+{
+  "slug": "zagora-optic",
+  "brandName": "ZAGORA OPTIC",
+  "tagline": "Opticienne",
+  "statement": "Opticienne Optométriste Contactologue",
+  "logoStyle": "flat",
+  "themeColor": "#ce2240",
+  "contact": {
+    "email": "",
+    "phone": "0624301885",
+    "phone2": "",
+    "website": "",
+    "location": "https://maps.app.goo.gl/fFdHWmMSpsGQD8aU6"
+  },
+  "social": [
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/optic.zagora.5/?locale=fr_FR"
+    }
+  ],
+  "logo": "assets/logo.webp",
+  "createdAt": "2026-09-01T18:10:56.289Z",
+  "updatedAt": "2026-09-01T18:14:40.379Z"
+}
