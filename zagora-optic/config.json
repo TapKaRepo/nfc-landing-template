@@ -20,9 +20,13 @@
     {
       "platform": "instagram",
       "url": "https://www.instagram.com/optique.zagora?utm_source=qr"
+    },
+    {
+      "platform": "whatsapp",
+      "url": "https://wa.ma/624301885"
     }
   ],
   "logo": "assets/logo.webp",
   "createdAt": "2026-09-01T18:10:56.289Z",
-  "updatedAt": "2026-09-03T00:18:11.918Z"
+  "updatedAt": "2026-09-03T19:15:09.130Z"
 }
